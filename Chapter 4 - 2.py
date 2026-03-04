@@ -4,4 +4,4 @@ while True:
     if inches < 0:
         print("Program ended.")
         break
-    print(f"That is {inches*2.54} centimeters.")
+    print(f"That is {inches*2.54:.2f} centimeters.")
