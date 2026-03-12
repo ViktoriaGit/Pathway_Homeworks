@@ -5,7 +5,7 @@ class Car:
         self.current_speed = 0
         self.travelled_distance = 0
 
-new_car = Car("BJJ-888", 142)
+new_car = Car("ABC-123", 142)
 
 print(f"Registration: {new_car.registration_number}")
 print(f"Max Speed: {new_car.max_speed} km/h")
